@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E2F44;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.content a{
+
+text-decoration:none;
+color:red;
+
+}
+table tr td a:hover{
+text-decoration:underline;
+color:red;
+
+}
+
+.knr a{
+color:white;
+margin:0px;
+padding:10px;
+text-decoration:none;
+font-size:20px;
+font-family:Times New Roman;
+}
+.knr a:hover{
+color:red;
+text-decoration:underline;
+display:block;
+}
+.b
+{
+background-color:#0E2F44;
+}
+
+table tr td a{
+text-decoration:none;
+color:white;
+font-size:20px;
+font-family:Times New Roman;
+}
+table{
+padding:0px;
+}
+.ak{
+    background-color:black;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+        
+}
+.ak a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.ak a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.ak a:active{
+    background-color: black;
+    color: white;
+}
+
+.an{
+    background-color: blueviolet;
+    padding:20px;
+   margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0; 
+    margin-top: 150px;
+	font-size:15px;
+}
+#mySidenav a:hover {
+    left: 0; 
+}
+
+/* The about link: 20px from the top with a green background */
+#Electronics {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#Fashion {
+    top: 80px;
+    background-color: #2196F3; 
+}
+
+#Women {
+    top: 140px;
+    background-color: #f44336; 
+}
+
+#Homeacceseries {
+    top: 200px;
+    background-color: #555 
+}
+#kids{
+    top:280px;
+    background-color: blueviolet;
+}
+
+
+</style>
+</head>
+<body bgcolor="#0E2F44">
+
+
+    <div class="ak">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contect">contact</a>
+        <a href="#about">about</a>
+        <a> <input type="search" name="search" class="sear" /></a>
+        <a > <button id="ak"> go</button></a>
+        <a class ="login.html" href="login.html">signin</a>
+        <a class="" href="#">cart</a>
+    
+    </div>  
+    
+    <div id="mySidenav" class="sidenav">
+  <a href="#" id="Electronics">Electronics</a>
+  <a href="#" id="Fashion">Fashion</a>
+  <a href="#" id="Women">Women</a>
+  <a href="#" id="Homeacceseries">Home acceseries</a>
+    <a href="#" id="kids">kids</a>    
+</div>
+
+
+
+
+
+
+
+<div class="main">
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="C:\Users\HP\Desktop\New folder\photos\phone.jpg" alt="Mountains" style="width:100%">
+      <h3><a href="">phones</a></h3>
+      <p>Price:Rs 100</p>
+  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b3.jpg" alt="Lights" style="width:100%">
+      <h3><a href="">phones</a></h3>
+      <p>Price:Rs 100</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b5.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+  
+  
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="C:\Users\HP\Desktop\New folder\photos\b.jpg" alt="Mountains" style="width:100%">
+      <h3><a href="">phones</a></h3>
+      <p>Price:Rs 100</p>
+  </div>
+  </div>
+   <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b3.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+   <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b1.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+   <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b5.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+   <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b4.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b3.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b2.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+   <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b1.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+    <div class="column">
+    <div class="content">
+    <img src="C:\Users\HP\Desktop\New folder\photos\b.jpg" alt="Nature" style="width:100%">
+      <h3><a href="">latest bags</a></h3>
+      <p>Price:Rs 500</p>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<div class="b">
+<table cellpadding="10" cellspacing="20" align="center">
+
+<tr>
+<td><b><a href=""">AbcBooks</b><br/>Books,art&collectibles </a></td>
+<td colspan="2"></id>
+<td><b><a href=""">kbr Web Services</b><br />Scalable Cloud Computing Services</a></td>
+<td colspan="2"></id>
+<td><b><a href="">Audible</b><br/>Download Audio Books</a></td>
+<td colspan="2"></id>
+<td><b><a href="">DPReview</b><br/>Digital photography</a></td>
+<td colspan="2"></id>
+<td><b><a href="">AbcBooks</b><br/>Books,art&collectibles </a></td>
+<td colspan="2"></id>
+</tr>
+
+<tr>
+<td><b><a href="">Look.com</b><br/>Kids'Clothing & shoes </a></td>
+<td colspan="2"></id>
+<td><b><a href="">Shopbop</b><br />Designer Fashon</a></td>
+<td colspan="2"></id>
+<td><b><a href="">KBR business</b><br/>Everything For your Business</a></td>
+<td colspan="2"></id>
+<td><b><a href="">souq.com</b><br/>shopping middle-east</a></td>
+<td colspan="2"></id>
+<td><b><a href="">KBR Now</b><br/>2-Hours delivery</a></td>
+<td colspan="2"></id>
+</tr>
+</table>
+<pre>
+<div class="knr">
+
+<a href="">Conditions of use sale</a>     <a href="">Privacy Notice</a>    <a href="">Interest-Based Ads</a>  <a href=""> @ 1996-201, kbr.com, inc, or its affilates</a>
+</div>
+</pre>
+</div>
+
+
+
+
+</body>
+</html>
